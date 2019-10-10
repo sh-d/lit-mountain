@@ -1,0 +1,79 @@
+:root {
+    --seaBlue:#086788;
+    --lightBlue:#06aed5;
+    --mainWhite:#f3f3f3;
+    --mainDark:#232528;
+    --mainYellow:#f0c808;
+    --dullWhite:#fff1d0;
+  }
+
+.card-text{
+  font-size: 0.8rem;
+}
+
+.orange{
+  color:#F89F32;
+}
+.grey{
+  color:#96989A;
+}
+.nav1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    background:white;
+    color:black;
+  }
+
+  .nav2{
+      background: #343434;
+  }
+
+  .mainh1{
+    /* font-family: 'Bungee Inline', cursive; */
+    font-family: 'Asap', sans-serif;
+    background: #343434;
+    color: white
+  }
+
+  #mainp{
+    font-family: 'Marck Script', cursive;
+  }
+
+  .section-heading{
+    font-family: 'Marck Script', cursive;
+  }
+
+  #fixedimg{
+    /* The image used */
+    background-image: url("/images/fixed/books1.jpg");
+    /* background-image: url("/images/logo/logo_colls guru.png"); */
+  
+    /* Set a specific height */
+    height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
